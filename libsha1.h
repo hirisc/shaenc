@@ -33,5 +33,6 @@ typedef unsigned long long uint64_t;
 
 typedef unsigned char byte_t;
 int sha1enc(const byte_t *input, size_t input_bytes, byte_t *output);
+int sha256enc(const byte_t *input, size_t input_bytes, byte_t *output);
 
 #endif /* #ifndef _LIBSHA1_H_ */
